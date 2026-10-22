@@ -1,0 +1,21 @@
+# Archivos de entorno y credenciales (¡Crítico!)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Configuraciones de editores e IA
+.cursor/
+.vscode/
+.agentes/
+
+# Dependencias (si aplica)
+node_modules/
+venv/
+__pycache__/
+
+# Logs y temporales
+*.log
+npm-debug.log*
+.DS_Store

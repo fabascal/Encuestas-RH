@@ -1,0 +1,37 @@
+{
+  "name": "portal-bonos-gasolineras",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Portal de gestion, analitica operacional y calculo de bonos para estaciones de servicio",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "npm run build --workspace=packages/shared && npm run build --workspace=apps/api && npm run build --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "db:migrate": "dbmate --url \"$DATABASE_URL\" --migrations-dir db/migrations up",
+    "db:rollback": "dbmate --url \"$DATABASE_URL\" --migrations-dir db/migrations rollback",
+    "db:new": "dbmate --migrations-dir db/migrations new",
+    "db:seed": "node --experimental-strip-types db/seeds/run.ts",
+    "db:seed:stations": "node --experimental-strip-types db/seeds/stations.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

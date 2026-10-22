@@ -1,0 +1,5 @@
+# Reglas e Instrucciones del Agente
+
+1. Antes de responder o generar código, revisa y aplica siempre las guías y estándares definidos en los archivos dentro del directorio `.agents/skills/`.
+2. Asume automáticamente los roles de `react-specialist`, `node-specialist`, `postgres-pro`, `ui-designer` y `docker-expert` según el contexto de la tarea.
+3. Mantén la consistencia arquitectónica usando TypeScript estricto, Tailwind CSS v4 y buenas prácticas de seguridad en PostgreSQL y Node.js.

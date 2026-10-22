@@ -1,0 +1,1 @@
+{"version":3,"file":"authorize.d.ts","sourceRoot":"","sources":["../../src/middlewares/authorize.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,cAAc,EAAE,MAAM,SAAS,CAAC;AAC5D,OAAO,KAAK,EAAE,QAAQ,EAAE,MAAM,gBAAgB,CAAC;AAG/C,2EAA2E;AAC3E,wBAAgB,SAAS,CAAC,GAAG,KAAK,EAAE,QAAQ,EAAE,IAC9B,SAAS,cAAc,EAAE,QAAQ,YAAY,KAAG,OAAO,CAAC,IAAI,CAAC,CAK5E"}

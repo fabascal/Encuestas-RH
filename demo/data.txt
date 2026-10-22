@@ -1,0 +1,1690 @@
+{
+    "success": true,
+    "data": {
+        "periodo": {
+            "mes": 8,
+            "anio": 2026
+        },
+        "total_estaciones": 79,
+        "total_zonas": 3,
+        "zonas": [
+            {
+                "nombre": "Zona Bajio",
+                "total_estaciones": 29,
+                "estaciones": [
+                    {
+                        "id": "fbc0adeb-5fb5-46fc-be71-3323a9e66c2c",
+                        "nombre": "24 HORAS",
+                        "identificador_externo": "4249",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 686.01,
+                                "porcentaje": 4.56
+                            },
+                            "magna": {
+                                "litros": 4084.72,
+                                "porcentaje": 4.18
+                            },
+                            "diesel": {
+                                "litros": 32.82,
+                                "porcentaje": 0.01
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "bc7074e5-4b10-4968-9f4b-2fa9c02a0e0a",
+                        "nombre": "BONANZA",
+                        "identificador_externo": "10195",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1329.08,
+                                "porcentaje": 4.1
+                            },
+                            "magna": {
+                                "litros": 5919.81,
+                                "porcentaje": 3.66
+                            },
+                            "diesel": {
+                                "litros": 386.37,
+                                "porcentaje": 0.96
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "2fff4e81-4f43-4e60-9ba7-45d013e445f0",
+                        "nombre": "CLOUTHIER",
+                        "identificador_externo": "8302",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 136.66,
+                                "porcentaje": 2.62
+                            },
+                            "magna": {
+                                "litros": 1724.47,
+                                "porcentaje": 3.71
+                            },
+                            "diesel": {
+                                "litros": 269.08,
+                                "porcentaje": 0.51
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "c1da10fc-bb68-4233-8f8f-c26b93d2fcd0",
+                        "nombre": "CONSTITUYENTES",
+                        "identificador_externo": "4977",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1073.27,
+                                "porcentaje": 3.59
+                            },
+                            "magna": {
+                                "litros": 11689.49,
+                                "porcentaje": 4.32
+                            },
+                            "diesel": {
+                                "litros": 413.96,
+                                "porcentaje": 1.02
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "efe73bef-f6ed-436c-9f53-ee6f2561b276",
+                        "nombre": "CRESPO 1",
+                        "identificador_externo": "4684",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 715.01,
+                                "porcentaje": 5.82
+                            },
+                            "magna": {
+                                "litros": 3954.36,
+                                "porcentaje": 4.26
+                            },
+                            "diesel": {
+                                "litros": 526.76,
+                                "porcentaje": 0.28
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "0b11fdd0-2381-41c8-ad1d-6a98a6b18133",
+                        "nombre": "CRESPO 2",
+                        "identificador_externo": "4669",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 768.41,
+                                "porcentaje": 7.17
+                            },
+                            "magna": {
+                                "litros": 3507.77,
+                                "porcentaje": 4.05
+                            },
+                            "diesel": {
+                                "litros": 189.29,
+                                "porcentaje": 0.17
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "31ee5f60-ce34-418d-852b-89ed873dc1f5",
+                        "nombre": "DON BOSCO",
+                        "identificador_externo": "3214",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1274.39,
+                                "porcentaje": 5.27
+                            },
+                            "magna": {
+                                "litros": 8233.28,
+                                "porcentaje": 4.79
+                            },
+                            "diesel": {
+                                "litros": 1035.08,
+                                "porcentaje": 2.93
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "9768be35-7a8e-4f19-97af-d315ddedbfcf",
+                        "nombre": "ESTACION APASEO",
+                        "identificador_externo": "4427",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 756.91,
+                                "porcentaje": 8.26
+                            },
+                            "magna": {
+                                "litros": 2917.82,
+                                "porcentaje": 4.1
+                            },
+                            "diesel": {
+                                "litros": 797.49,
+                                "porcentaje": 1.79
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "a4ec3802-bbac-49d5-b1d1-2ca21f8a3bd5",
+                        "nombre": "EUREKA",
+                        "identificador_externo": "998",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4657.44,
+                                "porcentaje": 4.18
+                            },
+                            "magna": {
+                                "litros": 15883.07,
+                                "porcentaje": 4.05
+                            },
+                            "diesel": {
+                                "litros": 2772.19,
+                                "porcentaje": 2.32
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "4a211954-7527-4f93-a92d-e133feb11d87",
+                        "nombre": "GASO INDUSTRIAL",
+                        "identificador_externo": "3135",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1184.89,
+                                "porcentaje": 7.75
+                            },
+                            "magna": {
+                                "litros": 4501.76,
+                                "porcentaje": 4.05
+                            },
+                            "diesel": {
+                                "litros": 417.64,
+                                "porcentaje": 0.27
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "ddcd60ff-75b1-4ed9-9700-cdb9e36bcd64",
+                        "nombre": "INDEPENDENCIA",
+                        "identificador_externo": "11158",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1767.1,
+                                "porcentaje": 4.07
+                            },
+                            "magna": {
+                                "litros": 10648.69,
+                                "porcentaje": 3.67
+                            },
+                            "diesel": {
+                                "litros": 687.94,
+                                "porcentaje": 1.77
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "90a866be-f398-474d-a219-24d5f271c97e",
+                        "nombre": "LA LAJA",
+                        "identificador_externo": "4044",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 274.71,
+                                "porcentaje": 3.81
+                            },
+                            "magna": {
+                                "litros": 2993.61,
+                                "porcentaje": 3.91
+                            },
+                            "diesel": {
+                                "litros": 1011.5,
+                                "porcentaje": 0.47
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "413d893a-79fb-4eed-a606-29bb227361a6",
+                        "nombre": "M CELAYA",
+                        "identificador_externo": "4670",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 516.88,
+                                "porcentaje": 4.09
+                            },
+                            "magna": {
+                                "litros": 4115.29,
+                                "porcentaje": 4.05
+                            },
+                            "diesel": {
+                                "litros": 163.73,
+                                "porcentaje": 0.23
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "3351e1a4-1ef2-43ae-b936-689fff1661fe",
+                        "nombre": "MARMOL",
+                        "identificador_externo": "6582",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 640.73,
+                                "porcentaje": 4.29
+                            },
+                            "magna": {
+                                "litros": 4846.11,
+                                "porcentaje": 3.96
+                            },
+                            "diesel": {
+                                "litros": 608.09,
+                                "porcentaje": 2.19
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "0d4ab4b0-e579-4ce3-b512-8efe56b59ef7",
+                        "nombre": "MOLINA",
+                        "identificador_externo": "385",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1373.28,
+                                "porcentaje": 4.07
+                            },
+                            "magna": {
+                                "litros": 7766.97,
+                                "porcentaje": 3.51
+                            },
+                            "diesel": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "c390d434-9260-4e69-9bc1-05c10b8daa38",
+                        "nombre": "PIPILA",
+                        "identificador_externo": "10940",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 681.14,
+                                "porcentaje": 3.21
+                            },
+                            "magna": {
+                                "litros": 5308,
+                                "porcentaje": 3.33
+                            },
+                            "diesel": {
+                                "litros": 380.33,
+                                "porcentaje": 1.16
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "5343f6a2-49db-4408-bce5-68b2278ac202",
+                        "nombre": "PRADERAS",
+                        "identificador_externo": "7183",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 454.38,
+                                "porcentaje": 4.09
+                            },
+                            "magna": {
+                                "litros": 4480.1,
+                                "porcentaje": 3.56
+                            },
+                            "diesel": {
+                                "litros": 601.17,
+                                "porcentaje": 0.65
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "7f555243-cf16-44ec-bfec-14ec1702709e",
+                        "nombre": "PROVIDENCIA",
+                        "identificador_externo": "4010",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 797.53,
+                                "porcentaje": 6.91
+                            },
+                            "magna": {
+                                "litros": 3621.82,
+                                "porcentaje": 3.7
+                            },
+                            "diesel": {
+                                "litros": 339.66,
+                                "porcentaje": 0.28
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "7a347e96-3ac5-4de3-afd2-62145554d35f",
+                        "nombre": "RYSVAL",
+                        "identificador_externo": "8227",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1450.19,
+                                "porcentaje": 3.87
+                            },
+                            "magna": {
+                                "litros": 7903.93,
+                                "porcentaje": 3.47
+                            },
+                            "diesel": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "00a528bc-1114-4b20-b481-abe74da0c1ff",
+                        "nombre": "SALVATIERRA 1",
+                        "identificador_externo": "4434",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1180.26,
+                                "porcentaje": 3.59
+                            },
+                            "magna": {
+                                "litros": 7987.88,
+                                "porcentaje": 3.17
+                            },
+                            "diesel": {
+                                "litros": 732.24,
+                                "porcentaje": 1.17
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "f92dfa28-b2e1-46f0-a978-b81ee9fec785",
+                        "nombre": "SALVATIERRA 2",
+                        "identificador_externo": "11210",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1071.07,
+                                "porcentaje": 3.72
+                            },
+                            "magna": {
+                                "litros": 8678.8,
+                                "porcentaje": 3.49
+                            },
+                            "diesel": {
+                                "litros": 406.27,
+                                "porcentaje": 0.64
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "5e04d805-17da-48be-a850-f5249ec89a82",
+                        "nombre": "SAN JAVIER",
+                        "identificador_externo": "7799",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 131.1,
+                                "porcentaje": 2.32
+                            },
+                            "magna": {
+                                "litros": 5023.9,
+                                "porcentaje": 3.93
+                            },
+                            "diesel": {
+                                "litros": 523.6,
+                                "porcentaje": 1.48
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "dfb60f00-5227-4349-9517-1168b5a200ae",
+                        "nombre": "SAN RAFAEL",
+                        "identificador_externo": "3894",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 631.61,
+                                "porcentaje": 4.16
+                            },
+                            "magna": {
+                                "litros": 4739.71,
+                                "porcentaje": 3.86
+                            },
+                            "diesel": {
+                                "litros": 232.32,
+                                "porcentaje": 1.68
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "6991571b-3fc4-4ec0-9744-c7949583b046",
+                        "nombre": "SERVICIO APASEO",
+                        "identificador_externo": "382",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 779.03,
+                                "porcentaje": 4.01
+                            },
+                            "magna": {
+                                "litros": 6962.08,
+                                "porcentaje": 3.98
+                            },
+                            "diesel": {
+                                "litros": 3611.75,
+                                "porcentaje": 2.03
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "a158eacc-3524-4ad3-8521-bd2a5207b140",
+                        "nombre": "TAMAYO 1",
+                        "identificador_externo": "4530",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 294.69,
+                                "porcentaje": 3.14
+                            },
+                            "magna": {
+                                "litros": 3494.21,
+                                "porcentaje": 3.55
+                            },
+                            "diesel": {
+                                "litros": 85.33,
+                                "porcentaje": 0.25
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "dccaab02-3e55-4c5b-94a3-0c34b6202f62",
+                        "nombre": "TAMAYO 2",
+                        "identificador_externo": "11677",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 498.51,
+                                "porcentaje": 3.93
+                            },
+                            "magna": {
+                                "litros": 2907.05,
+                                "porcentaje": 2.81
+                            },
+                            "diesel": {
+                                "litros": 740.74,
+                                "porcentaje": 1.08
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "103a95df-93a4-49e0-8e23-2c4c1cb6ee39",
+                        "nombre": "TECNOLOGICO",
+                        "identificador_externo": "4513",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1348.59,
+                                "porcentaje": 4.3
+                            },
+                            "magna": {
+                                "litros": 7682.45,
+                                "porcentaje": 3.76
+                            },
+                            "diesel": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "9c3176e2-e778-4b79-848a-2b5f9c9550ed",
+                        "nombre": "ULTIMO VAGON",
+                        "identificador_externo": "7292",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 723.42,
+                                "porcentaje": 3.36
+                            },
+                            "magna": {
+                                "litros": 6858.39,
+                                "porcentaje": 3.8
+                            },
+                            "diesel": {
+                                "litros": 499.09,
+                                "porcentaje": 0.95
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    },
+                    {
+                        "id": "5fbce81f-4611-43ac-afee-2734d0c52c6c",
+                        "nombre": "Y GRIEGA",
+                        "identificador_externo": "6106",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1159.68,
+                                "porcentaje": 4.29
+                            },
+                            "magna": {
+                                "litros": 13980.02,
+                                "porcentaje": 4.02
+                            },
+                            "diesel": {
+                                "litros": 1630.97,
+                                "porcentaje": 2.02
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:38:37.606Z"
+                    }
+                ]
+            },
+            {
+                "nombre": "Zona Occidente",
+                "total_estaciones": 23,
+                "estaciones": [
+                    {
+                        "id": "a9e5196d-ce0b-401f-b4ec-fab3b0e169a7",
+                        "nombre": "8 DE JULIO",
+                        "identificador_externo": "2791",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 3112.01,
+                                "porcentaje": 5.18
+                            },
+                            "magna": {
+                                "litros": 14547.68,
+                                "porcentaje": 4.42
+                            },
+                            "diesel": {
+                                "litros": 1542.31,
+                                "porcentaje": 0.85
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "11a55b89-2ce7-4248-87f8-8c59a8f18330",
+                        "nombre": "AGUAMILPA",
+                        "identificador_externo": "11326",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1271.2,
+                                "porcentaje": 5.09
+                            },
+                            "magna": {
+                                "litros": 4804.33,
+                                "porcentaje": 5.08
+                            },
+                            "diesel": {
+                                "litros": 1259.72,
+                                "porcentaje": 2.22
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "54c0cde6-fc6c-4b68-be01-824eff420b27",
+                        "nombre": "AHUACATLAN",
+                        "identificador_externo": "2376",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 5004.11,
+                                "porcentaje": 5.47
+                            },
+                            "magna": {
+                                "litros": 14051.32,
+                                "porcentaje": 5.02
+                            },
+                            "diesel": {
+                                "litros": 1996.09,
+                                "porcentaje": 2.21
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "cd01e992-d9ee-40f7-aa13-4a5030ea6de8",
+                        "nombre": "CENTRAL",
+                        "identificador_externo": "3901",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1962.37,
+                                "porcentaje": 4.83
+                            },
+                            "magna": {
+                                "litros": 8740.35,
+                                "porcentaje": 4.61
+                            },
+                            "diesel": {
+                                "litros": 1516.71,
+                                "porcentaje": 0.2
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "8122ef0e-2b39-473c-8467-0efdcabb66b0",
+                        "nombre": "CHAPALILLA",
+                        "identificador_externo": "3164",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2715.45,
+                                "porcentaje": 5.28
+                            },
+                            "magna": {
+                                "litros": 8503.09,
+                                "porcentaje": 4.35
+                            },
+                            "diesel": {
+                                "litros": 1381.21,
+                                "porcentaje": 3.04
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "738238d9-25cd-4f00-a191-abfde4e9bed6",
+                        "nombre": "COLOSIO",
+                        "identificador_externo": "12506",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2061.55,
+                                "porcentaje": 4.96
+                            },
+                            "magna": {
+                                "litros": 5731.91,
+                                "porcentaje": 4.33
+                            },
+                            "diesel": {
+                                "litros": 387.48,
+                                "porcentaje": 1.65
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "38def561-e6c2-409f-85eb-a4314b3cda17",
+                        "nombre": "EJIDO",
+                        "identificador_externo": "3547",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4898.71,
+                                "porcentaje": 5.15
+                            },
+                            "magna": {
+                                "litros": 13274.6,
+                                "porcentaje": 4.66
+                            },
+                            "diesel": {
+                                "litros": 2162.97,
+                                "porcentaje": 2.74
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "041b42ac-770c-4042-a26f-9f3f7952d990",
+                        "nombre": "H CASAS",
+                        "identificador_externo": "13256",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2477.49,
+                                "porcentaje": 4.63
+                            },
+                            "magna": {
+                                "litros": 8530.31,
+                                "porcentaje": 4.76
+                            },
+                            "diesel": {
+                                "litros": 213.73,
+                                "porcentaje": 2.64
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "8443fc94-4834-49bc-a4fd-a830ae2305d9",
+                        "nombre": "IXTLAN 1",
+                        "identificador_externo": "2383",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2543.68,
+                                "porcentaje": 5.13
+                            },
+                            "magna": {
+                                "litros": 8023.11,
+                                "porcentaje": 4.34
+                            },
+                            "diesel": {
+                                "litros": 1807.64,
+                                "porcentaje": 2.59
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "3d0aa232-8b6a-4155-9b94-b47fd219292a",
+                        "nombre": "IXTLAN 3",
+                        "identificador_externo": "19708",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1668.66,
+                                "porcentaje": 3.38
+                            },
+                            "magna": {
+                                "litros": 4620.38,
+                                "porcentaje": 2.69
+                            },
+                            "diesel": {
+                                "litros": 385.21,
+                                "porcentaje": 1.95
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "64e68d24-2370-477f-97b7-59f1617013ff",
+                        "nombre": "JAMAY",
+                        "identificador_externo": "11462",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1181.56,
+                                "porcentaje": 4.7
+                            },
+                            "magna": {
+                                "litros": 8897.02,
+                                "porcentaje": 4.74
+                            },
+                            "diesel": {
+                                "litros": 4789.31,
+                                "porcentaje": 2.92
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "7b4124c9-7b4e-4e1a-8842-38b123114b57",
+                        "nombre": "LA PEÑITA",
+                        "identificador_externo": "8489",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4610,
+                                "porcentaje": 6.57
+                            },
+                            "magna": {
+                                "litros": 12658.64,
+                                "porcentaje": 4.54
+                            },
+                            "diesel": {
+                                "litros": 2207.36,
+                                "porcentaje": 3.4
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "e86fda90-38c9-450a-bc1c-f398eb2f087a",
+                        "nombre": "MAGDALENA",
+                        "identificador_externo": "10466",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 6873.07,
+                                "porcentaje": 5.15
+                            },
+                            "magna": {
+                                "litros": 18041.61,
+                                "porcentaje": 4.4
+                            },
+                            "diesel": {
+                                "litros": 4456.05,
+                                "porcentaje": 0.73
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "9792eed5-77a4-48e6-9ccb-6026fa8f28f3",
+                        "nombre": "MONUMENTAL",
+                        "identificador_externo": "3037",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 3008.6,
+                                "porcentaje": 3.8
+                            },
+                            "magna": {
+                                "litros": 8173.1,
+                                "porcentaje": 4.01
+                            },
+                            "diesel": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "b3c2dc63-ce92-4218-91f1-0b9ce3a50d6a",
+                        "nombre": "OCOTLAN",
+                        "identificador_externo": "24289",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2085.04,
+                                "porcentaje": 3.49
+                            },
+                            "magna": {
+                                "litros": 13275.56,
+                                "porcentaje": 4.03
+                            },
+                            "diesel": {
+                                "litros": 914.68,
+                                "porcentaje": 2.67
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "28ad3580-8061-4a6d-8db3-bbe367f54058",
+                        "nombre": "PLANETARIO",
+                        "identificador_externo": "1526",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 7272.48,
+                                "porcentaje": 4.83
+                            },
+                            "magna": {
+                                "litros": 22479.87,
+                                "porcentaje": 4.7
+                            },
+                            "diesel": {
+                                "litros": 4048.36,
+                                "porcentaje": 0.98
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "198d0d56-2e88-4ecc-9403-de4fda41624c",
+                        "nombre": "PONCITLAN 1",
+                        "identificador_externo": "1603",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4647.87,
+                                "porcentaje": 5.76
+                            },
+                            "magna": {
+                                "litros": 18143.45,
+                                "porcentaje": 4.79
+                            },
+                            "diesel": {
+                                "litros": 3898.24,
+                                "porcentaje": 3.2
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "8f83082c-b547-4ae0-bdec-323ba98933f8",
+                        "nombre": "PONCITLAN 2",
+                        "identificador_externo": "13357",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1535.07,
+                                "porcentaje": 5.19
+                            },
+                            "magna": {
+                                "litros": 8301.92,
+                                "porcentaje": 4.99
+                            },
+                            "diesel": {
+                                "litros": 1626.42,
+                                "porcentaje": 2.51
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "5e1cef33-0274-4863-b6ef-348bc2a9216e",
+                        "nombre": "R MICHEL",
+                        "identificador_externo": "1532",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1000.99,
+                                "porcentaje": 5.36
+                            },
+                            "magna": {
+                                "litros": 3071.94,
+                                "porcentaje": 4.78
+                            },
+                            "diesel": {
+                                "litros": 748.26,
+                                "porcentaje": 0.42
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "6d6610af-b1f6-4408-96fe-ae7b42017f44",
+                        "nombre": "RANCHO",
+                        "identificador_externo": "7846",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 6172.87,
+                                "porcentaje": 5.62
+                            },
+                            "magna": {
+                                "litros": 11762.26,
+                                "porcentaje": 4.82
+                            },
+                            "diesel": {
+                                "litros": 2495.45,
+                                "porcentaje": 0.51
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "d00edd18-e375-4553-bbf3-e4a524d4b0ac",
+                        "nombre": "SAN CAYETANO",
+                        "identificador_externo": "13707",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2360.67,
+                                "porcentaje": 5.94
+                            },
+                            "magna": {
+                                "litros": 11089.59,
+                                "porcentaje": 5.69
+                            },
+                            "diesel": {
+                                "litros": 4860.18,
+                                "porcentaje": 3.41
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "b46042b2-a78f-4e14-905c-25929890ee49",
+                        "nombre": "TATEPOSCO",
+                        "identificador_externo": "7746",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 3035.71,
+                                "porcentaje": 5.28
+                            },
+                            "magna": {
+                                "litros": 13572.22,
+                                "porcentaje": 5.34
+                            },
+                            "diesel": {
+                                "litros": 4314.99,
+                                "porcentaje": 2.33
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    },
+                    {
+                        "id": "26ee57a3-f6b5-4782-918b-539cb9342afa",
+                        "nombre": "TEQUILA",
+                        "identificador_externo": "15891",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2933.82,
+                                "porcentaje": 3.18
+                            },
+                            "magna": {
+                                "litros": 8294.97,
+                                "porcentaje": 2.94
+                            },
+                            "diesel": {
+                                "litros": 1243.56,
+                                "porcentaje": 1.82
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T00:42:32.140Z"
+                    }
+                ]
+            },
+            {
+                "nombre": "Zona Sur",
+                "total_estaciones": 27,
+                "estaciones": [
+                    {
+                        "id": "560e8137-619c-4d86-8ada-d8f53764be3d",
+                        "nombre": "ABASOLO",
+                        "identificador_externo": "24288",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 3936.09,
+                                "porcentaje": 5.13
+                            },
+                            "magna": {
+                                "litros": 16568.02,
+                                "porcentaje": 4.66
+                            },
+                            "diesel": {
+                                "litros": 827.57,
+                                "porcentaje": 3.3
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "14f77980-3e47-4f46-a0ce-36721666bee4",
+                        "nombre": "ATEMAJAC",
+                        "identificador_externo": "15615",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2184.87,
+                                "porcentaje": 4.87
+                            },
+                            "magna": {
+                                "litros": 9661.03,
+                                "porcentaje": 3.61
+                            },
+                            "diesel": {
+                                "litros": 3006.39,
+                                "porcentaje": 3.16
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "4ede20dd-c902-47bd-892d-7661d0b66f17",
+                        "nombre": "AUTLAN",
+                        "identificador_externo": "11091",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4094.67,
+                                "porcentaje": 5.16
+                            },
+                            "magna": {
+                                "litros": 16466.3,
+                                "porcentaje": 4.82
+                            },
+                            "diesel": {
+                                "litros": 594.13,
+                                "porcentaje": 2.44
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "91378420-512b-4c0e-a21c-965a9249efc9",
+                        "nombre": "CALZADA",
+                        "identificador_externo": "7435",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4756.15,
+                                "porcentaje": 5.09
+                            },
+                            "magna": {
+                                "litros": 18054.83,
+                                "porcentaje": 4.72
+                            },
+                            "diesel": {
+                                "litros": 2262.35,
+                                "porcentaje": 5
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "1afbd69f-e12b-438b-b5ed-0deb2646f148",
+                        "nombre": "CAPRICHO",
+                        "identificador_externo": "9879",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1700.6,
+                                "porcentaje": 5.12
+                            },
+                            "magna": {
+                                "litros": 9406.14,
+                                "porcentaje": 5.19
+                            },
+                            "diesel": {
+                                "litros": 3142.17,
+                                "porcentaje": 0.71
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "eb218f9f-4910-47ff-af1a-9fbc0e102050",
+                        "nombre": "CASIMIRO",
+                        "identificador_externo": "8611",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1638.32,
+                                "porcentaje": 4.78
+                            },
+                            "magna": {
+                                "litros": 7057.5,
+                                "porcentaje": 4.45
+                            },
+                            "diesel": {
+                                "litros": 544.15,
+                                "porcentaje": 2.65
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "7c26f913-b308-48d0-9a92-514aba4c4ce2",
+                        "nombre": "COLON",
+                        "identificador_externo": "11805",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 3519.18,
+                                "porcentaje": 7.04
+                            },
+                            "magna": {
+                                "litros": 7293.24,
+                                "porcentaje": 4.4
+                            },
+                            "diesel": {
+                                "litros": 1015.49,
+                                "porcentaje": 3.33
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "93bf467b-5397-4528-b232-133972b43567",
+                        "nombre": "EL GRULLO",
+                        "identificador_externo": "9305",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2418.57,
+                                "porcentaje": 5.08
+                            },
+                            "magna": {
+                                "litros": 8281.53,
+                                "porcentaje": 4.85
+                            },
+                            "diesel": {
+                                "litros": 885.33,
+                                "porcentaje": 1.5
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "38ee891a-3ba2-40ef-a01e-a800aa64acfe",
+                        "nombre": "GARZAS",
+                        "identificador_externo": "6408",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 3459.74,
+                                "porcentaje": 5.6
+                            },
+                            "magna": {
+                                "litros": 13012.93,
+                                "porcentaje": 5.6
+                            },
+                            "diesel": {
+                                "litros": 1358.31,
+                                "porcentaje": 1.35
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "45f22cd5-016a-4d04-8dc2-c62eb1df9a3c",
+                        "nombre": "HUESCALAPA",
+                        "identificador_externo": "21004",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2889.12,
+                                "porcentaje": 5.7
+                            },
+                            "magna": {
+                                "litros": 13588.08,
+                                "porcentaje": 5.48
+                            },
+                            "diesel": {
+                                "litros": 1759.35,
+                                "porcentaje": 2.43
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "4784eb45-e611-48d2-9cfd-af51e885d671",
+                        "nombre": "LA HUERTA",
+                        "identificador_externo": "1593",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2431.61,
+                                "porcentaje": 5.14
+                            },
+                            "magna": {
+                                "litros": 11023.94,
+                                "porcentaje": 5.01
+                            },
+                            "diesel": {
+                                "litros": 544.94,
+                                "porcentaje": 2.63
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "9e944584-a75c-474a-8faa-6d8a9a39b734",
+                        "nombre": "LO ARADO",
+                        "identificador_externo": "1574",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1913.81,
+                                "porcentaje": 5.11
+                            },
+                            "magna": {
+                                "litros": 4602.88,
+                                "porcentaje": 4.42
+                            },
+                            "diesel": {
+                                "litros": 675.08,
+                                "porcentaje": 2.49
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "1038e9aa-c5f0-4483-8b10-58cb79fda86b",
+                        "nombre": "MEGASERVICIO",
+                        "identificador_externo": "7113",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4983.56,
+                                "porcentaje": 7.06
+                            },
+                            "magna": {
+                                "litros": 18779.28,
+                                "porcentaje": 4.53
+                            },
+                            "diesel": {
+                                "litros": 4853.62,
+                                "porcentaje": 0.46
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "efef6cc9-f70b-4764-8ec4-db630476f0c6",
+                        "nombre": "MELAQUE",
+                        "identificador_externo": "2557",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 8187.49,
+                                "porcentaje": 5.52
+                            },
+                            "magna": {
+                                "litros": 19511.39,
+                                "porcentaje": 5.77
+                            },
+                            "diesel": {
+                                "litros": 7365.49,
+                                "porcentaje": 4.44
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "70869a90-c6bb-4a71-8409-81553dbd16b6",
+                        "nombre": "MIRAMAR",
+                        "identificador_externo": "6786",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2623.53,
+                                "porcentaje": 4.52
+                            },
+                            "magna": {
+                                "litros": 9058.49,
+                                "porcentaje": 4.74
+                            },
+                            "diesel": {
+                                "litros": 653.36,
+                                "porcentaje": 0.73
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "6a4cccf9-1b62-419f-8cb9-7c32a288780c",
+                        "nombre": "PALMAS",
+                        "identificador_externo": "7775",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1294.86,
+                                "porcentaje": 5.05
+                            },
+                            "magna": {
+                                "litros": 4653.56,
+                                "porcentaje": 5.41
+                            },
+                            "diesel": {
+                                "litros": 226.79,
+                                "porcentaje": 0.84
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "7b014b00-fbd9-4c83-bde3-0ee332d40cc6",
+                        "nombre": "SAYULA 1",
+                        "identificador_externo": "1610",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            },
+                            "magna": {
+                                "litros": 18399.56,
+                                "porcentaje": 5.57
+                            },
+                            "diesel": {
+                                "litros": 4437.79,
+                                "porcentaje": 2.25
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "042f9c57-30ce-4847-96d1-c00c57c92ee6",
+                        "nombre": "SAYULA2",
+                        "identificador_externo": "1611",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 5246.18,
+                                "porcentaje": 4.81
+                            },
+                            "magna": {
+                                "litros": 11666.82,
+                                "porcentaje": 5.27
+                            },
+                            "diesel": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "ef06d914-0ca2-46f2-8c6b-9a63c624e29b",
+                        "nombre": "TAPALPA",
+                        "identificador_externo": "15616",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 1359.54,
+                                "porcentaje": 3.8
+                            },
+                            "magna": {
+                                "litros": 6628.53,
+                                "porcentaje": 3.55
+                            },
+                            "diesel": {
+                                "litros": 620.85,
+                                "porcentaje": 2.24
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "711b056b-b683-4433-93f0-2f99ec7b68a6",
+                        "nombre": "TECOMAN",
+                        "identificador_externo": "9900",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2067.3,
+                                "porcentaje": 4.79
+                            },
+                            "magna": {
+                                "litros": 11647.89,
+                                "porcentaje": 5.33
+                            },
+                            "diesel": {
+                                "litros": 1047.47,
+                                "porcentaje": 0.88
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "70c9e2b3-65a3-4e41-a437-2c5a0b05e15d",
+                        "nombre": "UNIVERSIDAD",
+                        "identificador_externo": "1570",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 2889.99,
+                                "porcentaje": 4.94
+                            },
+                            "magna": {
+                                "litros": 8894.56,
+                                "porcentaje": 4.9
+                            },
+                            "diesel": {
+                                "litros": 344.87,
+                                "porcentaje": 2.82
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "3be3f6fe-ea62-4375-9a5a-2b35b33e7a71",
+                        "nombre": "USMAJAC",
+                        "identificador_externo": "24380",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            },
+                            "magna": {
+                                "litros": 6014,
+                                "porcentaje": 4.05
+                            },
+                            "diesel": {
+                                "litros": 973.27,
+                                "porcentaje": 1.99
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "3c8f2e28-60d2-408a-8445-75484d60844f",
+                        "nombre": "VILLA PURIFICACION",
+                        "identificador_externo": "3028",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 4090.8,
+                                "porcentaje": 5.13
+                            },
+                            "magna": {
+                                "litros": 11904.7,
+                                "porcentaje": 4.47
+                            },
+                            "diesel": {
+                                "litros": 953.84,
+                                "porcentaje": 2.95
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "f5126840-9259-4026-acfb-d1b7219136cc",
+                        "nombre": "VILLANUEVA",
+                        "identificador_externo": "413",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 6341.55,
+                                "porcentaje": 5.16
+                            },
+                            "magna": {
+                                "litros": 22951.67,
+                                "porcentaje": 4.34
+                            },
+                            "diesel": {
+                                "litros": 1412.45,
+                                "porcentaje": 0.16
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "b60f4736-5754-458f-b980-a635ce77b6b0",
+                        "nombre": "ZACOALCO",
+                        "identificador_externo": "25158",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 5967.17,
+                                "porcentaje": 5.55
+                            },
+                            "magna": {
+                                "litros": 31313.92,
+                                "porcentaje": 5.07
+                            },
+                            "diesel": {
+                                "litros": 3214.78,
+                                "porcentaje": 2.65
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "f704818a-fc0b-449a-b701-bdf8f496e44e",
+                        "nombre": "ZAPOTILTIC",
+                        "identificador_externo": "427",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 0,
+                                "porcentaje": 0
+                            },
+                            "magna": {
+                                "litros": 14936.96,
+                                "porcentaje": 4.84
+                            },
+                            "diesel": {
+                                "litros": 1259.56,
+                                "porcentaje": 2.39
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    },
+                    {
+                        "id": "f84e7aff-10e4-48e4-b7ae-5d7405cb8f92",
+                        "nombre": "ZAPOTILTIC 2",
+                        "identificador_externo": "426",
+                        "eficiencia": {
+                            "premium": {
+                                "litros": 3565.78,
+                                "porcentaje": 4.9
+                            },
+                            "magna": {
+                                "litros": 11056.88,
+                                "porcentaje": 4.99
+                            },
+                            "diesel": {
+                                "litros": 722.51,
+                                "porcentaje": 2.72
+                            }
+                        },
+                        "dias_reportados": 31,
+                        "fecha_actualizacion": "2026-09-04T18:41:18.594Z"
+                    }
+                ]
+            }
+        ]
+    }
+}

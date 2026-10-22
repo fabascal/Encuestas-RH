@@ -1,0 +1,96 @@
+services:
+  db:
+    image: docker.io/library/postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - db_data:/var/lib/postgresql/data:Z
+    ports:
+      - '${POSTGRES_PORT:-5432}:5432'
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+
+  migrate:
+    image: ghcr.io/amacneil/dbmate:2
+    restart: 'no'
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+    volumes:
+      - ./db/migrations:/db/migrations:Z
+    command: ['--wait', 'up']
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - internal
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+      target: api
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      PORT: ${API_PORT}
+      DATABASE_URL: ${DATABASE_URL}
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY}
+      JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET}
+      ACCESS_TOKEN_TTL_SECONDS: ${ACCESS_TOKEN_TTL_SECONDS}
+      REFRESH_TOKEN_TTL_DAYS: ${REFRESH_TOKEN_TTL_DAYS}
+      CORS_ORIGIN: ${CORS_ORIGIN}
+      LOG_LEVEL: ${LOG_LEVEL}
+    # Uncomment to reach the API directly from the host while developing.
+    # ports:
+    #   - '${API_PORT:-3000}:3000'
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    networks:
+      - internal
+
+  worker:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+      target: worker
+    restart: unless-stopped
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      DATABASE_URL: ${DATABASE_URL}
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY}
+      LOG_LEVEL: ${LOG_LEVEL}
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    networks:
+      - internal
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    restart: unless-stopped
+    ports:
+      - '${WEB_PORT:-8080}:8080'
+    depends_on:
+      - api
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
+
+volumes:
+  db_data:
